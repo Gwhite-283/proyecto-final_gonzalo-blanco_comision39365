@@ -1,0 +1,67 @@
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(27, 26, 26);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    background-image: url(../img/vintage-wood-texture-background-1549438.jpg);
+    color: rgb(3, 3, 3);
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.menu li {
+    display: inline-flex;
+    margin: 4px;
+
+}
+
+.logo {
+    width: 200px;
+}
+
+.banner {
+    background-image: url(../img/habilitacion-peluqueria-barberia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 430px;
+    width: 100%;
+}
+
+.foto_intro {
+    width: 100%;
+    height: 400px;
+}
+.card {
+    background: rgba(149, 146, 146, 0.336);
+    padding: 6px 30px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*lo vi en un video de Youtube y quise probarlo*/
+.card:hover {
+    background: rgba(255, 255, 255, 0.575);
+}
