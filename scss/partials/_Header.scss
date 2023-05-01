@@ -81,6 +81,8 @@ div#navbarNavAltMarkup {
     flex-direction: row-reverse;
 }
 
-.fomul.loco {
-    height: 500px;
+nav.navbar.navbar-expand-lg.bg-dark{
+    position: sticky;
+    z-index: 1;
+    top: 170px;  
 }
