@@ -65,3 +65,22 @@ img {
 .card:hover {
     background: rgba(255, 255, 255, 0.575);
 }
+nav.navbar .navbar-expand-lg {
+    width: 100%;
+}
+
+a.nav-link {
+    color: white;
+    
+}
+a.nav-link.active {
+    color: white;
+}
+
+div#navbarNavAltMarkup {
+    flex-direction: row-reverse;
+}
+
+.fomul.loco {
+    height: 500px;
+}
