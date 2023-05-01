@@ -1,4 +1,9 @@
 
+body {
+    background-image: url(../img/vintage-wood-texture-background-1549438.jpg);
+    color: rgb(3, 3, 3);
+}
+
 header {
     position: sticky;
     top: 0;
@@ -6,13 +11,8 @@ header {
     background-color: rgb(27, 26, 26);
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
-}
-
-body {
-    background-image: url(../img/vintage-wood-texture-background-1549438.jpg);
-    color: rgb(3, 3, 3);
 }
 
 
