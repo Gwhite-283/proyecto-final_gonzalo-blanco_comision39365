@@ -1,3 +1,11 @@
+@charset "UTF-8";
+/*Paleta de colores*/
+/*Tamaños de fuentes e iconos*/
+/*Resoluciones de pantallas*/
+/*Separaciones (margenes y paddings)*/
+/*Fuente*/
+/*MIXINS*/
+/*BOLSITAS DE CODIGO*/
 * {
   margin: 0;
   padding: 0;
@@ -166,8 +174,20 @@ footer {
   gap: 10px;
 }
 
+.titulos-footer {
+  margin-top: 20px;
+}
+
 .icono-redes {
   width: 30px;
+}
+
+.padre-redes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
 .whatsapp {

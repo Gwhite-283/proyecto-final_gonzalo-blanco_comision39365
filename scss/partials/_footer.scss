@@ -11,8 +11,17 @@ footer {
 
 }
 
+.titulos-footer {
+    margin-top: $espacio-chico;
+}
+
 .icono-redes {
     width: 30px;
+}
+
+.padre-redes {
+    @include flex-fila-centrado;
+    gap: 30px;
 }
 
 .whatsapp {
