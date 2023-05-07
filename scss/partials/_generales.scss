@@ -2,3 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-image: url(../img/vintage-wood-texture-background-1549438.jpg);
+    color: rgb(3, 3, 3);
+}
+
+h1 {
+    @include flex-columna
+}

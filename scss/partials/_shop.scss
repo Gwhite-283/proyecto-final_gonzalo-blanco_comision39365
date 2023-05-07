@@ -21,10 +21,15 @@
     align-items: center;
 }
 
+.all-cards {
+    align-items: center;
+}
+
 @media (min-width: 768px) {
     .all-cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        align-items: center;
     }
 }
 

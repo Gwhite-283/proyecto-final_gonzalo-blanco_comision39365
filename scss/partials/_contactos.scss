@@ -1,0 +1,13 @@
+.contactos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.info {
+    margin: 8px;
+    border-radius: 25px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.416);
+}

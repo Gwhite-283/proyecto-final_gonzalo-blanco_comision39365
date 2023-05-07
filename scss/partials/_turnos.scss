@@ -1,0 +1,14 @@
+form {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: $desktop){
+    section.formularios {
+        width: 200px;
+    }  
+}

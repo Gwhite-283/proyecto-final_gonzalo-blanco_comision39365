@@ -5,15 +5,14 @@ body {
 }
 
 header {
-    position: sticky;
     top: 0;
-    z-index: 1;
     background-color: rgb(27, 26, 26);
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 
 
 ul {
@@ -61,7 +60,6 @@ img {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*lo vi en un video de Youtube y quise probarlo*/
 .card:hover {
     background: rgba(255, 255, 255, 0.575);
 }
@@ -78,11 +76,11 @@ a.nav-link.active {
 }
 
 div#navbarNavAltMarkup {
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 nav.navbar.navbar-expand-lg.bg-dark{
     position: sticky;
     z-index: 1;
-    top: 170px;  
+    top: 0;
 }

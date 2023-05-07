@@ -16,10 +16,20 @@ body {
   color: rgb(3, 3, 3);
 }
 
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+body {
+  background-image: url(../img/vintage-wood-texture-background-1549438.jpg);
+  color: rgb(3, 3, 3);
+}
+
 header {
-  position: sticky;
   top: 0;
-  z-index: 1;
   background-color: rgb(27, 26, 26);
   width: 100%;
   display: flex;
@@ -71,7 +81,6 @@ img {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*lo vi en un video de Youtube y quise probarlo*/
 .card:hover {
   background: rgba(255, 255, 255, 0.575);
 }
@@ -89,13 +98,13 @@ a.nav-link.active {
 }
 
 div#navbarNavAltMarkup {
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 nav.navbar.navbar-expand-lg.bg-dark {
   position: sticky;
   z-index: 1;
-  top: 170px;
+  top: 0;
 }
 
 .foto_intro {
@@ -104,7 +113,7 @@ nav.navbar.navbar-expand-lg.bg-dark {
 }
 
 .titulos {
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface", bold;
   font-size: 40px;
   text-align: center;
   margin-top: 30px;
@@ -115,11 +124,25 @@ nav.navbar.navbar-expand-lg.bg-dark {
   gap: 20px;
 }
 
+p.parr_intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .parr_intro {
   margin: 50px;
   border-radius: 25px;
   padding: 20px;
   background: rgba(255, 255, 255, 0.416);
+}
+
+.card.card-intro {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
 }
 
 label {
@@ -142,26 +165,42 @@ form {
 .galeria-container {
   background-color: rgba(255, 255, 255, 0.416);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 400px;
+  grid-template-columns: repeat(1, 1fr);
   padding: 10px;
   gap: 10px;
+  object-fit: cover;
 }
 
 .galeria__img {
   width: 100%;
   height: 100%;
+  padding: 2px;
+  margin: 5px;
+  align-self: start;
+  justify-self: stretch;
   object-fit: cover;
 }
 
-.galeria__items:nth-child(3) {
-  grid-row-start: span 3;
+@media (min-width: 768px) {
+  .galeria-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    gap: 10px;
+    align-items: stretch;
+    object-fit: cover;
+  }
 }
-
-.galeria__items:nth-child(6) {
-  grid-column-start: span 2;
+@media (min-width: 992px) {
+  .galeria-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 14px 15px;
+    object-fit: cover;
+    align-items: stretch;
+  }
 }
-
 footer {
   bottom: 0 auto;
   width: 100%;
@@ -220,16 +259,55 @@ footer {
   align-items: center;
 }
 
+.all-cards {
+  align-items: center;
+}
+
 @media (min-width: 768px) {
   .all-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
   }
 }
 @media (min-width: 992px) {
   .all-cards {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+article {
+  margin: 50px;
+  border-radius: 25px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.416);
+}
+
+form {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 992px) {
+  section.formularios {
+    width: 200px;
+  }
+}
+.contactos {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.info {
+  margin: 8px;
+  border-radius: 25px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.416);
 }
 
 /*# sourceMappingURL=styles.css.map */
