@@ -17,6 +17,7 @@ body {
 }
 
 h1 {
+  font-family: "Dancing Script", cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,8 +109,9 @@ nav.navbar.navbar-expand-lg.bg-dark {
 }
 
 .titulos {
-  font-family: "Abril Fatface", bold;
-  font-size: 40px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
   text-align: center;
   margin-top: 30px;
 }
@@ -157,8 +159,17 @@ label {
   margin-bottom: 50px;
   gap: 20px;
 }
-.contenido img {
-  width: 100vh;
+.contenido .sillon {
+  width: 370px;
+  height: 480px;
+}
+
+.card-text {
+  position: absolute;
+  top: 20px;
+  left: 80%;
+  width: 120px;
+  background-color: rgba(168, 168, 171, 0.83);
 }
 
 form {

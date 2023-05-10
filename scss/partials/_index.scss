@@ -3,9 +3,10 @@
     height: 400px;
 }
 
-.titulos {
-    font-family: 'Abril Fatface', bold;
-    font-size: 40px;
+.titulos { 
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
     text-align: center;
     margin-top: 30px;
 }
@@ -36,6 +37,7 @@ p.parr_intro{
 
 }
 
+
 label {
     font-size: large;
 }
@@ -54,9 +56,19 @@ label {
     gap: 20px;
 
 
-    img {
-        width: 100vh;
+.sillon {
+        width: 370px;
+        height: 480px;
     }
+}
+
+.card-text {
+    position: absolute;
+    top: 20px;
+    left: 80%;
+    width: 120px;
+    background-color: rgba(168, 168, 171, 0.83);
+
 }
 
 form {
