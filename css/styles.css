@@ -282,9 +282,9 @@ article {
   background: rgba(255, 255, 255, 0.416);
 }
 
-form {
+.turnos {
   display: flex;
-  margin-top: 20px;
+  margin-top: 2px;
   justify-content: center;
   align-items: stretch;
   flex-direction: column;
