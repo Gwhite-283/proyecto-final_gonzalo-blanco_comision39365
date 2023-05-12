@@ -12,12 +12,14 @@
 }
 
 body {
-  background-image: url(../img/vintage-wood-texture-background-1549438.jpg);
+  background-image: url(../img/fondo2.jpg);
   color: rgb(3, 3, 3);
 }
 
 h1 {
   font-family: "Dancing Script", cursive;
+  font-size: 70px;
+  color: rgb(251, 243, 243);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,7 +27,6 @@ h1 {
 }
 
 header {
-  top: 0;
   background-color: rgb(27, 26, 26);
   width: 100%;
   display: flex;
@@ -33,36 +34,9 @@ header {
   align-items: center;
 }
 
-ul {
-  list-style: none;
-}
-
-li a {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-
-img {
-  width: 100%;
-}
-
-.menu li {
-  display: inline-flex;
-  margin: 4px;
-}
-
 .logo {
-  width: 200px;
-}
-
-.banner {
-  background-image: url(../img/habilitacion-peluqueria-barberia.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 430px;
-  width: 100%;
+  width: 150px;
+  padding: 20px;
 }
 
 .foto_intro {
@@ -151,17 +125,19 @@ label {
   min-width: 100%;
   height: 100%;
   margin-bottom: 30px;
+  display: flex;
+}
+
+.sillon {
+  width: 100vh;
+  padding: 10px;
 }
 
 .contenido {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-bottom: 50px;
   gap: 20px;
-}
-.contenido .sillon {
-  width: 370px;
-  height: 480px;
 }
 
 .card-text {
@@ -312,6 +288,17 @@ article {
   border-radius: 25px;
   padding: 20px;
   background: rgba(255, 255, 255, 0.416);
+}
+
+.contenedor_turn {
+  width: 100%;
+  z-index: -1;
+  display: flex;
+}
+
+.turn {
+  display: flex;
+  position: relative;
 }
 
 .turnos {

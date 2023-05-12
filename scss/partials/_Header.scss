@@ -1,6 +1,5 @@
 
 header {
-    top: 0;
     background-color: rgb(27, 26, 26);
     width: 100%;
     display: flex;
@@ -8,41 +7,11 @@ header {
     align-items: center;
 }
 
-
-
-ul {
-    list-style: none;
-}
-
-
-li a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-img {
-    width: 100%;
-}
-
-.menu li {
-    display: inline-flex;
-    margin: 4px;
-
-}
-
 .logo {
-    width: 200px;
+    width: 150px;
+    padding: 20px;
 }
 
-.banner {
-    background-image: url(../img/habilitacion-peluqueria-barberia.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 430px;
-    width: 100%;
-}
 
 .foto_intro {
     width: 100%;
