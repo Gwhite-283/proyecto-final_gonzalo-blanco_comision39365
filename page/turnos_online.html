@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gonzalo Blanco</title>
+    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="shortcut icon" href="../img/Logo_barber_01.png">
+    <link rel="shortcut icon" href="../../img/Logo_barber_01.png">
 </head>
 
 <body>
@@ -60,41 +60,56 @@
             </div>
         </div>
     </nav>
-    <h1>
-        Contacto
-    </h1>
-<section class="contactos">
-    <ul class="info">
-        <li>BARBER COMPANY</li>
-        <li>AV. SAN MARTIN 502</li>
-        <li>TEL: 4655-6845</li>
-        <li>whatsapp: 11-6944-5166</li>
-    </ul>
+    <main>
+        <div>
+            <img class="contenedor_turn" src="../img/mesa-madera-vintage-herramientas-peluqueria-dar-forma-barba.jpg"
+            alt="fondo mesa de madera vintage">
+        </div>
+        <section class="formulario turn">
+            <h1>Turnos_online</h1>
+            <div class="turno_form">
+                <form method="post" class="turnos">
+                    <label for="nombre">Barbers</label>
+                    <input type="text" id="nombre" name="nombre" required>
 
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.3353909317757!2d-58.5609230848696!3d-34.64623186725561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7e4050cfbdb%3A0x1231f35d92541878!2z8J2VvvCdlobwnZaT8J2WmfCdlpQg8J2Vu_CdlorwnZaI8J2WhvCdlonwnZaUIEJBUkJFUlNIT1A!5e0!3m2!1ses!2sar!4v1679857405135!5m2!1ses!2sar"
-        width="800" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">Mapa</iframe>
-</section>
+                    <label for="dia">Dia</label>
+                    <input type="date" id="apellido" name="apellido" required>
 
-        <footer>
-            <h2>Visita nuestras redes sociales</h2>
-    
-            <div class="padre-redes">
-                <a href="https://www.tiktok.com" target="_blank">
-                    <img src="../img/tiktok-app-icon.svg" alt="Icono linkedin" class="icono-redes">
-                </a>
-    
-                <a href="https://www.instagram.com" target="_blank">
-                    <img src="../img/ig-instagram-icon.svg" alt="Icono instagram" class="icono-redes">
-                </a>
-    
-                <a href="https://www.facebook.com" target="_blank">
-                    <img src="../img/facebook-app-icon.svg" alt="Icono facebook" class="icono-redes">
-                </a>
+                    <label for="hora">Horario</label>
+                    <input type="time" id="email" name="email" required>
+                    <div>
+                        <label for="comentario">Comentario:</label>
+                        <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+                        <input type="submit" value="Enviar Comentario">
+                    </div>
+                </form>
             </div>
-        </footer> 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        </section>
+    </main>
+
+
+    <footer>
+        <h2>Visita nuestras redes sociales</h2>
+
+        <div class="padre-redes">
+            <a href="https://www.tiktok.com" target="_blank">
+                <img src="../img/tiktok-app-icon.svg" alt="Icono linkedin" class="icono-redes">
+            </a>
+
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="../img/ig-instagram-icon.svg" alt="Icono instagram" class="icono-redes">
+            </a>
+
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="../img/facebook-app-icon.svg" alt="Icono facebook" class="icono-redes">
+            </a>
+        </div>
+    </footer>
+
+    <a href="https://api.whatsapp.com/send?phone=5491112345678" target="_blank">
+        <img src="../img/wa-whatsapp-icon.svg" alt="Icono whatsapp" class="whatsapp">
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 </body>
