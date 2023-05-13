@@ -1,13 +1,24 @@
 .contactos {
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column-reverse;
     margin: 30px;
+    align-items: center;
 }
-
 .info {
     margin: 8px;
     border-radius: 25px;
     padding: 12px;
     background: rgba(255, 255, 255, 0.416);
+    list-style-type: none;
+}
+
+@media (min-width: $tablet) {
+    .contactos {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 30px;
+        align-items: center;
+        height: 100%;
+    }
 }

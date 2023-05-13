@@ -1,13 +1,17 @@
 .contenedor_turn {
+    position: absolute;
     width: 100%;
     z-index: -1;
     display: flex;
+    width: 100%;
 }
-.turn {
+
+section.formulario.turn {
+    width: 100%;
     display: flex;
     position: relative;
-
 }
+
 .turnos {
     display: flex;
     margin-top: 2px;
@@ -17,8 +21,4 @@
     gap: 20px;
 }
 
-@media (min-width: $desktop){
-    section.formularios {
-        width: 200px;
-    }  
-}
+
