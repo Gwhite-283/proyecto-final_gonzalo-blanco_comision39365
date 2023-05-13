@@ -13,7 +13,7 @@
 }
 
 .card-body {
-    margin-top: 30px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -23,6 +23,11 @@
 
 .all-cards {
     align-items: center;
+}
+
+.btn-primary {
+    --bs-btn-bg: rgb(151, 151, 156);
+    --bs-btn-border-color: rgb(151, 151, 156);
 }
 
 @media (min-width: 768px) {

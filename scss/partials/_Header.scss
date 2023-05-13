@@ -38,3 +38,13 @@ a.nav-link {
 a.nav-link.active {
     color: white;
 }
+
+div#navbarNavAltMarkup {
+    flex-direction: row;
+}
+
+nav.navbar.navbar-expand-lg.bg-dark{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
