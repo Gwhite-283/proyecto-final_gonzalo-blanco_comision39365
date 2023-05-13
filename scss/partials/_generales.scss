@@ -9,8 +9,8 @@ body {
 }
 
 h1 {
+    color: $color-secundario;
     font-family: 'Dancing Script', cursive;
     font-size: 70px;
-    color: $color-secundario;
     @include flex-columna;
 }

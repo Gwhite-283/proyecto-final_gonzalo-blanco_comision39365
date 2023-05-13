@@ -17,9 +17,9 @@ body {
 }
 
 h1 {
+  color: rgb(251, 243, 243);
   font-family: "Dancing Script", cursive;
   font-size: 70px;
-  color: rgb(251, 243, 243);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -301,6 +301,10 @@ footer {
   align-items: center;
 }
 
+.card-title {
+  text-align: center;
+}
+
 .all-cards {
   align-items: center;
 }
@@ -327,6 +331,11 @@ article {
   border-radius: 25px;
   padding: 20px;
   background: rgba(255, 255, 255, 0.416);
+}
+
+.foto_nos {
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 .contenedor_turn {
@@ -393,6 +402,7 @@ section.formulario.turn {
 .video {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
