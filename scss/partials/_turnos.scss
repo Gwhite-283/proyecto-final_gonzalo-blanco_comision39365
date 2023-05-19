@@ -6,19 +6,9 @@
     width: 100%;
 }
 
-section.formulario.turn {
-    width: 100%;
-    display: flex;
-    position: relative;
-}
-
 .turnos {
     display: flex;
-    margin-top: 2px;
-    justify-content: center;
-    align-items: stretch;
     flex-direction: column;
-    gap: 20px;
+    width: 100%;
+
 }
-
-
