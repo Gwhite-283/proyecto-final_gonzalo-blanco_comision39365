@@ -155,12 +155,6 @@ label {
   font-size: x-large;
 }
 
-form {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: space-between;
-}
-
 .formulario {
   margin: 10px;
   border-radius: 25px;
@@ -343,7 +337,6 @@ article {
   width: 100%;
   z-index: -1;
   display: flex;
-  width: 100%;
 }
 
 .turnos {
